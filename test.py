@@ -16,7 +16,7 @@ def compute_lcm(x, y):
 
    return lcm
 
-num1 = input("Enter your first value")
-num2 = input("Enter your second value")
+num1 = int(input("Enter your first value"))
+num2 = int(input("Enter your second value"))
 
 print("The L.C.M. is", compute_lcm(num1, num2))
